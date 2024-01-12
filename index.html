@@ -1,41 +1,48 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Login</title>
-</head>
-    <body>
-        <div class="main">
-
-            <!-- Parte esquerda do site -->
-
-            <div class="left-login">
-                <h1> Faça Login <br> E entre para o nosso time</h1>
-                <img 
-                class="left-login-image"
-                src="assets/oversight-animate.svg" 
-                alt="Homem"> 
-            </div>
-
-            <!-- Parte direita do site -->
-
-            <div class="right-login">
-                <div class="card-login">
-                    <h1>LOGIN</h1>
-                    <div class="textfield">
-                        <label for="usuario">Usuário</label>
-                        <input type="text" name="usuario" placeholder="Usuário">
-                    </div>
-
-                    <div class="textfield">
-                        <label for="senha">Senha</label>
-                        <input type="password" name="senha" placeholder="Senha">
-                    </div>
-                    <button class="btn-login">Login</button>
-                </div>
-            </div>
+  </head>
+  <body>
+    <main id="container">
+      <!-- Parte esquerda do site -->
+      <div class="wrapper">
+        <div class="paragraph">
+          <h1>
+            Faça Login <br />
+            E entre para o nosso time
+          </h1>
         </div>
-    </body>
+
+        <div class="image">
+          <img
+            class="left-login-image"
+            src="https://raw.githubusercontent.com/thiagomenezescs/Login-page/847e2c320ec1de02f31bc16e9df1b713a98e7547/assets/oversight-animate.svg"
+            alt="Homem"
+          />
+        </div>
+      </div>
+
+      <!-- Parte direita do site -->
+
+      <div class="form-login">
+        <div class="card-login">
+          <h1>LOGIN</h1>
+          <div class="textfield">
+            <label for="usuario">Usuário</label>
+            <input type="text" name="usuario" placeholder="Usuário" />
+          </div>
+
+          <div class="textfield">
+            <label for="senha">Senha</label>
+            <input type="password" name="senha" placeholder="Senha" />
+          </div>
+          <button class="btn-login">Login</button>
+        </div>
+      </div>
+    </main>
+  </body>
 </html>
